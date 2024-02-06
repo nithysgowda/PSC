@@ -1,0 +1,26 @@
+(gdb) b main
+Breakpoint 1 at 0x1400014b1: file problem01.c, line 5.
+(gdb) r
+Starting program: C:\Users\Hp\Documents\PSC\set01\a.exe
+[New Thread 3412.0x39e0]
+
+Thread 1 hit Breakpoint 1, main () at problem01.c:5
+5       printf("Nithyshree");
+(gdb) s
+printf (__format=0x7ff7d5b89000 "Nithyshree") at C:/msys64/mingw64/include/stdio.h:374
+374       __builtin_va_list __local_argv; __builtin_va_start( __local_argv, __format );
+(gdb) s
+375       __retval = __mingw_vfprintf( stdout, __format, __local_argv );
+(gdb) s
+__acrt_iob_func (index=1) at C:/M/B/src/mingw-w64/mingw-w64-crt/stdio/acrt_iob_func.c:11
+11      C:/M/B/src/mingw-w64/mingw-w64-crt/stdio/acrt_iob_func.c: No such file or directory.
+(gdb) s
+__mingw_vfprintf (stream=0x7ff8ac558a30 <msvcrt!_iob+48>, fmt=0x7ff7d5b89000 "Nithyshree", argv=0x5ffe88 "α\025d")
+    at C:/M/B/src/mingw-w64/mingw-w64-crt/stdio/mingw_vfprintf.c:53
+53      C:/M/B/src/mingw-w64/mingw-w64-crt/stdio/mingw_vfprintf.c: No such file or directory.
+(gdb) s
+_lock_file (pf=0x7ff8ac558a30 <msvcrt!_iob+48>) at C:/M/B/src/mingw-w64/mingw-w64-crt/stdio/mingw_lock.c:42
+42      C:/M/B/src/mingw-w64/mingw-w64-crt/stdio/mingw_lock.c: No such file or directory.
+(gdb) s
+__acrt_iob_func (index=index@entry=0) at C:/M/B/src/mingw-w64/mingw-w64-crt/stdio/acrt_iob_func.c:11
+11 
