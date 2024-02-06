@@ -1,0 +1,6 @@
+PS C:\Users\Hp\Documents\PSC> cd "c:\Users\Hp\Documents\PSC\set01\" ; if ($?) { gcc problem04.c -o problem04 } ; if ($?) { .\problem04 }
+enter the values
+3
+enter the values
+4
+the sum of 3,4 is 7
