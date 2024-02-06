@@ -1,0 +1,8 @@
+PS C:\Users\Hp\Documents\PSC> cd "c:\Users\Hp\Documents\PSC\set01\" ; if ($?) { gcc problem06.c -o problem06 } ; if ($?) { .\problem06 }
+enter the values
+3
+enter the values
+4
+enter the values
+5
+the largest of 3,4,5 is 5
