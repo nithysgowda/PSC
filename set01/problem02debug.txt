@@ -1,0 +1,17 @@
+(gdb) b main
+Breakpoint 1 at 0x1400014b1
+(gdb) r
+Starting program: C:\Users\Hp\Documents\PSC\set01\a.exe 
+[New Thread 22204.0x2a24]
+
+Thread 1 hit Breakpoint 1, 0x00007ff7df8c14b1 in main ()
+(gdb) n
+Single stepping until exit from function main,
+which has no line number information.
+Nithyshree__tmainCRTStartup () at C:/M/B/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:273
+273     C:/M/B/src/mingw-w64/mingw-w64-crt/crt/crtexe.c: No such file or directory.
+(gdb) n
+274     in C:/M/B/src/mingw-w64/mingw-w64-crt/crt/crtexe.c
+(gdb) n
+[Thread 22204.0x5508 exited with code 0]
+[Inferior 1 (process 22204) exited normally]

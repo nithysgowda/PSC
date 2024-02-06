@@ -1,0 +1,4 @@
+PS C:\Users\Hp\Documents\PSC> cd "c:\Users\Hp\Documents\PSC\set01\" ; if ($?) { gcc problem02.c -o problem02 } ; if ($?) { .\problem02 }
+Enter a:2
+Enter b:4
+2 + 4 =6
