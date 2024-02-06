@@ -1,0 +1,2 @@
+PS C:\Users\Hp\Documents\PSC> cd "c:\Users\Hp\Documents\PSC\set01\" ; if ($?) { gcc problem01.c -o problem01 } ; if ($?) { .\problem01 }
+Nithyshree
