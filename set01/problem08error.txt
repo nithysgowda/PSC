@@ -1,0 +1,6 @@
+PS C:\Users\Hp\Documents\PSC> cd "c:\Users\Hp\Documents\PSC\set01\" ; if ($?) { gcc problem08.c -o problem08 } ; if ($?) { .\problem08 }
+enter the no of elements:2
+enter 2 numbers:
+4
+5
+The sum entered numbers are :9
