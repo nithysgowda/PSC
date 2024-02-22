@@ -1,0 +1,51 @@
+S C:\Users\Hp\Documents\PSC\set01> git add .                                                                                             
+PS C:\Users\Hp\Documents\PSC\set01> git commit -m "test"                                                                                  
+[main 89abb22] test
+ 1 file changed, 23 insertions(+)
+PS C:\Users\Hp\Documents\PSC\set01> git push .                                                                                            
+Everything up-to-date
+PS C:\Users\Hp\Documents\PSC\set01> git push  
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 552 bytes | 552.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/nithysgowda/PSC.git
+   779cee0..89abb22  main -> main
+PS C:\Users\Hp\Documents\PSC\set01> gdb a.exe                                                                                             
+GNU gdb (GDB) 13.1 
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-w64-mingw32".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+--Type <RET> for more, q to quit, c to continue without paging--
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from a.exe...
+(gdb) b main
+Breakpoint 1 at 0x1400014b1
+(gdb) r
+Starting program: C:\Users\Hp\Documents\PSC\set01\a.exe
+[New Thread 16876.0x5b18]
+
+Thread 1 hit Breakpoint 1, 0x00007ff7eb0414b1 in main ()
+(gdb) s
+Single stepping until exit from function main,
+which has no line number information.
+Nithyshree__tmainCRTStartup () at C:/M/B/src/mingw-w64/mingw-w64-crt/crt/crtexe.c:273
+273     C:/M/B/src/mingw-w64/mingw-w64-crt/crt/crtexe.c: No such file or directory.
+(gdb) s
+274     in C:/M/B/src/mingw-w64/mingw-w64-crt/crt/crtexe.c
+(gdb) s
+[Thread 16876.0x3c60 exited with code 0]
+[Inferior 1 (process 16876) exited normally]
