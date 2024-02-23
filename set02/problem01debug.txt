@@ -1,0 +1,28 @@
+ 1 file changed, 31 insertions(+)
+PS C:\Users\Hp\Documents\PSC\set02> gcc -g -O0 problem01.c -o problem01.exe
+PS C:\Users\Hp\Documents\PSC\set02> gdb .\problem01.exe
+GNU gdb (GDB) 13.1
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-w64-mingw32".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+--Type <RET> for more, q to quit, c to continue without paging--
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from .\problem01.exe...
+(gdb) r
+Starting program: C:\Users\Hp\Documents\PSC\set02\problem01.exe
+[New Thread 5852.0x2338]
+Enter the base of the triangle: 1
+Enter the height of the triangle: 2
+The area of the triangle with base 1.000000 and height 2.000000 is 1.000000
+[Thread 5852.0x4440 exited with code 0]
+[Inferior 1 (process 5852) exited normally]
