@@ -1,0 +1,33 @@
+PS C:\Users\Hp\Documents\PSC\set02> gcc -g -O0 problem08.c -o problem08.exe
+PS C:\Users\Hp\Documents\PSC\set02> gdb .\problem08.exe
+GNU gdb (GDB) 13.1
+Copyright (C) 2023 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+Type "show copying" and "show warranty" for details.
+This GDB was configured as "x86_64-w64-mingw32".
+Type "show configuration" for configuration details.
+For bug reporting instructions, please see:
+<https://www.gnu.org/software/gdb/bugs/>.
+Find the GDB manual and other documentation resources online at:
+    <http://www.gnu.org/software/gdb/documentation/>.
+
+--Type <RET> for more, q to quit, c to continue without paging--
+For help, type "help".
+Type "apropos word" to search for commands related to "word"...
+Reading symbols from .\problem08.exe...
+(gdb) r
+Starting program: C:\Users\Hp\Documents\PSC\set02\problem08.exe
+[New Thread 24820.0x6b2c]
+Enter the number of triangles: 2
+Enter triangle 1:
+Enter base and altitude of the triangle: 2
+3
+Enter triangle 2:
+Enter base and altitude of the triangle: 4
+6
+The smallest triangle out of triangles with base and height:
+(2.00,3.00) (4.00,6.00) is the triangle having base 2.00, height 3.00, and area 3.00
+[Thread 24820.0x3c64 exited with code 0]
+[Inferior 1 (process 24820) exited normally]
